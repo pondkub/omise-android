@@ -7,8 +7,34 @@ All data are transmitted via HTTPS to our PCI-DSS certified server.
 
 ## Requirements
 * Android SDK 2.2 (API Level 8) or above.
+* Android:Gradle SDK 2.2 (API Level 9) or above.
 
 ## Setup
+####Android Gradle :
+   Edit file `build.gradle` like below :
+```   
+   buildscript {
+        repositories {
+            jcenter()
+        }
+       dependencies {
+            classpath 'com.android.tools.build:gradle:1.2.3' // or above
+        }
+   }
+   
+   dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'co.omise:omise-android:1.0.2'
+  }
+  ```
+You can download example application <a href="https://github.com/omise/omise-android-example">`OmiseApp`</a> and import to your Android studio.                                                  
+
+####Others :
+
+Download or cloning `omise-android-library` and Import to repository by using Right click -> New -> Create Module -> Android Library and copy or import to Android application porject.
+
+Or
+
 You can import the library in Eclipse by cloning this repository and selecting File -> Import -> Existing Projects into Workspace and choose this project in 'Select root directory.'
 
 ## Primary classes
@@ -87,4 +113,4 @@ try {
 ```
 
 ### Test project
-Please import `omise-android_Test` project, build and run the application inside the device or an Android emulator.
+Download example application <a href="https://github.com/omise/omise-android-example">Click.</a>
