@@ -24,7 +24,7 @@ buildscript {
    }
 
   dependencies {
-    compile 'co.omise:omise-android:1.0.2'
+    compile 'co.omise:omise-android:1.0.3'
   }
 ```
 To install Omise Android library for Eclipse:
