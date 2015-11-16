@@ -24,7 +24,7 @@ buildscript {
    }
 
   dependencies {
-    compile 'co.omise:omise-android:1.0.2'
+    compile 'co.omise:omise-android:1.0.3'
   }
 ```
 สำหรับ install Omise Android library บน Eclipse:
