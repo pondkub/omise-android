@@ -4,8 +4,9 @@
 [![](https://img.shields.io/gitter/room/omise/omise-android.svg?style=flat-square)](https://gitter.im/omise/omise-android)
 [![](https://img.shields.io/badge/email-support-yellow.svg?style=flat-square)](mailto:support@omise.co)
 
-Omise is a payment service provider currently operating in Thailand. Omise provides a set
-of clean APIs that helps merchants of any size accept credit cards online.
+Omise is a payment service provider currently operating in Southeast Asia
+and Japan. Omise provides a set of clean APIs that helps merchants of any
+size accept credit cards online.
 
 Omise Android SDK provides Android bindings for the Omise
 [Tokenization](https://www.omise.co/tokens-api) API so you do not need to pass credit card
